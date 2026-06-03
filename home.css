@@ -21,7 +21,8 @@ p {
 body {
   background: var(--lightcoral);
   color: var(--brown);
-  font-family: Georgia, serif;
+  font-family: "Butterfly Kids", cursive;
+  font-size: 30px;
   margin: 0;
   padding: 40px;
   max-width: 700px;

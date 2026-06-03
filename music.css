@@ -1,0 +1,111 @@
+:root {
+  --beige: #FFF5D0;
+  --yellow: #FFD840;
+  --orange: #FF9050;
+  --coral: #FF505A;
+  --lightcoral: #F08080;
+  --pink: #F6C6BD;
+  --aqua: #B2FEF7;
+  --purple: #D8C0F8;
+  --brown: #452B1f;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+  background: var(--lightcoral);
+  color: var(--brown);
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* nav */
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+/* Custom styling just for the music box */
+.container div.music-box {
+  background-color: var(--brown); /* Dark background so text pops */
+  color: var(--beige);            /* Crisp beige text */
+  justify-content: flex-start;    /* Aligns content to the top */
+  padding: 25px;
+}
+
+.music-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--coral);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.music-header h3 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.status-dot {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--yellow);
+  animation: blink 1.5s infinite; /* Makes the "now playing" text blink! */
+}
+
+/* Track rows */
+.track {
+  display: flex;
+  gap: 15px;
+  padding: 8px 0;
+  border-bottom: 1px dashed rgba(255, 245, 208, 0.3); /* Sharp dashed line */
+  font-size: 14px;
+}
+
+.track:last-child {
+  border-bottom: none; /* Removes line on the last track */
+}
+
+.track-num {
+  color: var(--orange);
+  font-family: monospace;
+}
+
+.track-title {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.track-artist {
+  opacity: 0.8;
+  font-style: italic;
+}
+
+/* Blinking animation logic */
+@keyframes blink {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}

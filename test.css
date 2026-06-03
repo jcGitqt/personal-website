@@ -10,11 +10,23 @@
   --brown: #452B1f;
 }
 
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
 body {
-  background-color: var(--lightcoral);
+  background: var(--lightcoral);
+  color: var(--brown);
   font-family: Georgia, serif;
   margin: 0;
-  padding: 20px;
+  padding: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 /* nav */
@@ -44,17 +56,17 @@ ul a:hover {
   max-width: 800px;
   margin: 40px auto; /* Centers the whole container */
   padding: 20px;
-  background-color: var(--beige);
+  background-color: var(--lightcoral);
   border-radius: 0;   /* Removed round edges from main container */
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  /*box-shadow: 0 10px 30px rgba(0,0,0,0.1);*/
 }
 
 /* General style for every box inside */
 .container div {
-  background: white;
+  background: var(--beige);
   padding: 20px;
   border-radius: 0;   /* Removed round edges from individual boxes */
-  color: var(--lightcoral);
+  color: var(--brown);
   display: flex;
   flex-direction: column;
   justify-content: center;

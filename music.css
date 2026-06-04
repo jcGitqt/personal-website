@@ -26,7 +26,21 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: "Bonbon", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 23px;
+}
+
 p { 
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal; 
   text-align: center;
 }
 
@@ -40,6 +54,10 @@ ul {
 }
 
 ul a {
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal; 
   text-decoration: none;
 }
 

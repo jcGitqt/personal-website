@@ -52,3 +52,17 @@ ul a {
 ul a:hover {
   text-decoration: underline;
 }
+
+/* centering images class */
+.center-img {
+  display: block;      /* Change it from "text-like" to a "block" */
+  margin-left: auto;   /* Pushes from the left */
+  margin-right: auto;  /* Pushes from the right */
+  width: 500px;        /* Change this number to make it bigger/smaller */
+  height: auto;        /* Keeps the image perfectly proportional */
+  
+  /* Optional: Add your cute aesthetic border here! */
+  border: 1px solid var(--brown);
+  padding: 8px;
+  background-color: var(--brown);
+}

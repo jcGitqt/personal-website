@@ -55,6 +55,7 @@ ul a:hover {
 
 /* centering images class */
 .center-img {
+  color: #ffffff; /* alt text color*/
   display: block;      /* Change it from "text-like" to a "block" */
   margin-left: auto;   /* Pushes from the left */
   margin-right: auto;  /* Pushes from the right */
